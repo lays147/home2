@@ -2,6 +2,7 @@ pages:
   script:
     - mkdir public
     - mv css public/
+    - mv lays.jpg public/
     - cp index.html public/index.html
   artifacts:
     paths:
