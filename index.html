@@ -1,216 +1,186 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My first Bulma website</title>
-    <link rel="stylesheet" href="css/main.css">
-  </head>
-  <body>
-    <section class="hero is-medium is-primary">
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns">
-            <div class="column is-8-desktop is-offset-2-desktop">
-              <h1 class="title is-2 is-spaced">
-                Hello Bulma!
-              </h1>
-              <h2 class="subtitle is-4">
-                  Congratulations! You're running the <strong>Bulma start</strong> project.
-                  <br>
-                  It includes everything you need to <strong>build your own website</strong> with Bulma.
-              </h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lays Rodrigues</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+</head>
+
+<body>
+  <section class="hero is-medium is-primary">
+    <div class="hero-body">
       <div class="container">
         <div class="columns">
+          <div class="column is-1 is-offset-2-desktop">
+            <figure class="image is-128x128">
+              <img class="is-rounded" src="./lays.jpg">
+            </figure>
+          </div>
           <div class="column is-8-desktop is-offset-2-desktop">
-            <div class="content">
-              <h3>What's included</h3>
+            <h1 class="title is-2 is-spaced">
+              Lays Rodrigues
+            </h1>
+            <h2 class="subtitle is-4">
+              Software Engineer
+              <br>
+              Dev & Ops | <strong>A bit</strong> of everything.
+            </h2>
+            <div>
+              <span class="icon is-large">
+                <a class="has-text-white" href="https://www.linkedin.com/in/laysrodrigues147/" target="_blank">
+                  <i class="fa-lg fab fa-linkedin-in"></i>
+                </a>
+              </span>
+              <span class="icon is-large">
+                <a class="has-text-white" href="https://t.me/lays147" target="_blank">
+                  <i class="fa-lg fab fa-telegram"></i>
+                </a>
+              </span>
+              <span class="icon is-large">
+                <a class="has-text-white" href="https://gitlab.com/lays147" target="_blank">
+                  <i class="fa-lg fab fa-gitlab"></i>
+                </a>
+              </span>
+              <span class="icon is-large">
+                <a class="has-text-white" href="mailto:laysrodriguessilva@gmail.com" target="_blank">
+                  <i class="fa-lg fas fa-at"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-8-desktop is-offset-2-desktop">
+          <div class="content">
+            <h3>A bit of me</h3>
+            <div class="box">
               <p>
-                The <code>npm</code> dependencies included in <code>package.json</code> are:
-              </p>
-              <ul>
-                <li>
-                  <code><a href="https://github.com/jgthms/bulma">bulma</a></code>
-                </li>
-                <li>
-                  <code><a href="https://github.com/sass/node-sass">node-sass</a></code> to compile your own Sass file
-                </li>
-                <li>
-                  <code><a href="https://github.com/postcss/postcss-cli">postcss-cli</a></code> and <code><a href="https://github.com/postcss/autoprefixer">autoprefixer</a></code> to add support for older browsers
-                </li>
-                <li>
-                  <code><a href="https://babeljs.io/docs/usage/cli/">babel-cli</a></code>,
-                  <code><a href="https://github.com/babel/babel-preset-env">babel-preset-env</a></code>
-                  and
-                  <code><a href="https://github.com/jmcriffey/babel-preset-es2015-ie">babel-preset-es2015-ie</a></code>
-                  for compiling ES6 JavaScript files
-                </li>
-              </ul>
-              <p>
-                Apart from <code>package.json</code>, the following files are included:
-              </p>
-              <ul>
-                <li>
-                  <code>.babelrc</code> configuration file for <a href="https://babeljs.io/">Babel</a>
-                </li>
-                <li>
-                  <code>.gitignore</code> common <a href="https://git-scm.com/">Git</a> ignored files
-                </li>
-                <li>
-                  <code>index.html</code> this HTML5 file
-                </li>
-                <li>
-                  <code>_sass/main.scss</code> a basic SCSS file that <strong>imports Bulma</strong> and explains how to <strong>customize</strong> your styles, and compiles to <code>css/main.css</code>
-                </li>
-                <li>
-                  <code>_javascript/main.js</code> an ES6 JavaScript that compiles to <code>lib/main.js</code>
-                </li>
-              </ul>
-              <h3>Try it out!</h3>
-              <p>
-                To see if your setup works, follow these steps:
-              </p>
-              <ol>
-                <li>
-                  <p>
-                    <strong>Move</strong> to this directory:
-                    <br>
-                    <pre><code>cd bulma-start</code></pre>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <strong>Install</strong> all dependencies:
-                    <br>
-                    <pre><code>npm install</code></pre>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <strong>Start</strong> the CSS and JS watchers:
-                    <br>
-                    <pre><code>npm start</code></pre>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <strong>Edit</strong> <code>_sass/main.scss</code> by adding the following rule at the <strong>end</strong> of the file:
-                    <br>
-                    <pre><span style="color: #22863a;">html</span> {
-  <span style="color: #005cc5;"><span style="color: #005cc5;">background-color</span></span>: <span style="color: #24292e">$green</span>;
-}</pre>
-                  </p>
-                </li>
-              </ol>
-              <p>
-                The page background should turn <strong class="has-text-success">green</strong>!
-              </p>
-              <h3>Get started</h3>
-              <p>
-                You're <strong>ready</strong> to create your own designs with Bulma. Just edit or duplicate this page, or simply create a new one!
-                <br>
-                For example, this page is <strong>only</strong> built with the following <strong>Bulma elements</strong>:
+                Learning to solve problems. That's my <i>Modus Operandi</i>. I am always trying to create solutions to
+                problems.
+                And the context of those problems can be: Cloud Architecture, CI/CD Pipelines, build API's to delivery
+                information among Rest, GraphQL and gRPC technologies.
+                If it's a challenge and I can work on it, doesn't matter the context.
+                However, I do like to work with backend applications and build the architecture for those applications
+                on AWS. My front end skills are minimal.
               </p>
             </div>
-            <table class="table is-bordered is-fullwidth">
-              <thead>
-                <tr>
-                  <th>Type</th>
-                  <th>CSS class</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th>Columns</th>
-                  <td>
-                    <code><a href="http://bulma.io/documentation/columns/basics">columns</a></code>
-                    <code><a href="http://bulma.io/documentation/columns/basics">column</a></code>
-                  </td>
-                </tr>
-                <tr>
-                  <th>Layout</th>
-                  <td>
-                    <code><a href="http://bulma.io/documentation/layout/section">section</a></code>
-                    <code><a href="http://bulma.io/documentation/layout/container">container</a></code>
-                    <code><a href="http://bulma.io/documentation/layout/footer">footer</a></code>
-                  </td>
-                </tr>
-                <tr>
-                  <th>Elements</th>
-                  <td>
-                    <code><a href="http://bulma.io/documentation/elements/button">button</a></code>
-                    <code><a href="http://bulma.io/documentation/elements/content">content</a></code>
-                    <code><a href="http://bulma.io/documentation/elements/title">title</a></code>
-                    <code><a href="http://bulma.io/documentation/elements/title">subtitle</a></code>
-                  </td>
-                </tr>
-                <tr>
-                  <th>Form</th>
-                  <td>
-                    <code><a href="http://bulma.io/documentation/form/general">field</a></code>
-                    <code><a href="http://bulma.io/documentation/form/general">control</a></code>
-                  </td>
-                </tr>
-                <tr>
-                  <th>Helpers</th>
-                  <td>
-                    <code><a href="http://bulma.io/documentation/modifiers/typography-helpers/">has-text-centered</a></code>
-                    <code><a href="http://bulma.io/documentation/modifiers/typography-helpers/">has-text-weight-semibold</a></code>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <div class="content">
+            <div class="box">
+              <h4 class="has-text-info has-text-weight-light">What do I like to do besides work?</h4>
               <p>
-                If you want to <strong>learn more</strong>, follow these links:
+                Netflix. Read books. To ride a bike or car. Get out with my friends for beer & pizza. Chill with my
+                boyfriend. Therapy.
+                Travel. Dream. To eat and enjoy good food. Discover new places. Realize that I can be wrong an that's
+                ok. To be honest. <strong>To be me.</strong>
               </p>
             </div>
-            <div class="field is-grouped">
-              <p class="control">
-                <a class="button is-medium is-primary" href="http://bulma.io">
-                  <strong class="has-text-weight-semibold">Bulma homepage</strong>
-                </a>
+            <h3>My background</h3>
+            <h4>| Education</h4>
+            <div class="box">
+              <h4 class="has-text-info has-text-weight-light">Bachelor of Information Systems</h4>
+              <p>
+                <strong>Sep/2017 - Out/2019</strong></br>
+                I have a Bachelor of Information Systems by the Federal Fluminense University(UFF).</br>
+                Before the Information Systems course, I have done 6 years of Computer Science at the same University.
+                However, I have found on the Information Systems the pleasure to work with technology, besides the tech
+                itself.
+                The course has 3 pilars: Technology, People and Processes. And we are in a time where those 3 subjects
+                converge
+                on delivering the <strong>value</strong> to the customer.
               </p>
-              <p class="control">
-                <a class="button is-medium is-link" href="http://bulma.io/documentation/overview/start/">
-                  <strong class="has-text-weight-semibold">Documentation</strong>
-                </a>
+            </div>
+            <h4>| Jobs</h4>
+            <div class="box">
+              <h4 class="has-text-info has-text-weight-light">Software Engineer @ CyberLabs.Ai</h4>
+              <p>
+                <strong>Dez/2019 - Out/2020</strong></br>
+                During my time at CyberLabs.Ai, I have done:
+              <ul>
+                <li>Designed and delivered all the AWS infrastructure for the <a href="keyapp.ai"
+                    target="_blank">KeyApp</a></li>
+                <li>Built with the backend team most of the microservices that served as backend to the KeyApp mobile
+                  application</li>
+                <li>Designed the CI/CD workflow to automatic deliver code to Development and Production environments
+                  using Gitlab CI</li>
+                <li>Implemented a pipeline that runs unit tests, code quality and sast tests, that only allows code to
+                  be merged after all issues in a review is resolved</li>
+                <li>Created all the infrastructure as code using Terraform and creating reusable modules for the company
+                  to use</li>
+                <li>Deployment of Machine Learning models based on PyThorch and Tensorflow to AWS ECS</li>
+                <li>Together with <a href="https://solvimm.com/" target="_blank">Solvimm</a>, we held a <a
+                    href="https://aws.amazon.com/pt/architecture/well-architected/" target="_blank">Well-Architected
+                    Framework</a>
+                  workshop to discover within the 5 pillars what we needed to do to take the KeyApp to a new level </li>
+                <li>Created Grafana dashboards to collect and deliver data information about the KeyApp to help the
+                  company on the decision making process</li>
+                <li>Built an alert system that communicated to our Discord channels about any problem on our
+                  environments based on Cloudwatch metrics</li>
+                <li>Built the microservices infrastructure using ECS and configured automatic scaling for all services
+                  based on Cloudwatch metrics</li>
+              </ul>
+              </p>
+            </div>
+            <div class="box">
+              <h4 class="has-text-info has-text-weight-light">Software Developer @ Meta | Rede Globo</h4>
+              <p>
+                <strong>Jan/2019 - Nov/2019</strong></br>
+                During my time at Meta, working allocated at Rede Globo, I have done:
+              <ul>
+                <li>In company classes about Agile Development</li>
+                <li>Continue the work of maintenance of C++ legacy systems</li>
+                <li>Worked with Infra as Code to build AWS environments for our applications</li>
+                <li>Improved the workflow created for the World Cup to process and move all the Acervo(Archive) videos
+                  to a new platform/storage</li>
+              </ul>
+              </p>
+            </div>
+            <div class="box">
+              <h4 class="has-text-info has-text-weight-light">Intership @ Rede Globo</h4>
+              <p>
+                <strong>Jan/2017 - Dec/2018</strong></br>
+                During my intership at Rede Globo, the biggest telecomunication company of Latin America, I have done:
+              <ul>
+                <li>Maintenance of C++ legacy systems</li>
+                <li>CI/CD using Gitlab and Ansible for deploy of Python services</li>
+                <li>Helped build and delivery of a workflow that processed videos originated from Fifa World Cup from
+                  2018 that
+                  delivered more than 160 hours of content to the Journalism and Sports for the news.</li>
+              </ul>
               </p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <footer class="footer has-text-centered">
-      <div class="container">
-         <div class="columns">
-          <div class="column is-8-desktop is-offset-2-desktop">
-            <p>
-              <strong class="has-text-weight-semibold">
-                <a href="https://www.npmjs.com/package/bulma-start">bulma-start@0.0.4</a>
-              </strong>
-            </p>
-            <p>
-              <small>
-                Source code licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
-              </small>
-            </p>
-            <p style="margin-top: 1rem;">
-              <a href="http://bulma.io">
-                <img src="made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
-              </a>
-            </p>
-          </div>
+  </section>
+  <footer class="footer has-text-centered">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-8-desktop is-offset-2-desktop">
+          <p>
+            <strong class="has-text-weight-semibold">
+              Lays Rodrigues
+            </strong>
+          </p>
+          <p class="has-text-centered">
+            <small>
+              Software Engineer
+            </small>
+            </br>
+            <small>
+              2020
+            </small>
+          </p>
         </div>
       </div>
-    </footer>
-    <script type="text/javascript" src="lib/main.js"></script>
-  </body>
+    </div>
+  </footer>
+</body>
 </html>
